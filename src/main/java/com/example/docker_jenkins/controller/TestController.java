@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/dj")
 public class TestController {
+    //1
     @RequestMapping("/test1")
     public String test1(){
         return "test1";
